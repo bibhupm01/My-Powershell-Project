@@ -7,7 +7,7 @@ $vm_window = New-Object System.Windows.Forms.Form -Property @{
     Font            = New-Object System.Drawing.Font('Segoe UI', 12, [System.Drawing.FontStyle]::Bold)
     FormBorderStyle = 'Fixed3D'
     ForeColor       = '#FFFFFF'
-    BackColor       = '#1E1E2F'   # modern dark background
+    BackColor       = '#1E1E2F'
     MaximizeBox     = $false
     StartPosition   = 'CenterScreen'
     Width           = 520
@@ -20,7 +20,7 @@ $title_banner = New-Object System.Windows.Forms.Label -Property @{
     TextAlign = 'MiddleCenter'
     Font      = New-Object System.Drawing.Font('Segoe UI', 14, [System.Drawing.FontStyle]::Bold)
     ForeColor = '#FFFFFF'
-    BackColor = '#0078D4'   # bright blue header
+    BackColor = '#0078D4'
     Location  = New-Object System.Drawing.Point(0, 0)
     Size      = New-Object System.Drawing.Size(510, 40)
 }
@@ -29,7 +29,7 @@ $vm_label = New-Object System.Windows.Forms.Label -Property @{
     Text      = 'Select options:'
     TextAlign = 'MiddleLeft'
     Font      = New-Object System.Drawing.Font('Segoe UI', 11, [System.Drawing.FontStyle]::Bold)
-    ForeColor = '#00FF88'   # neon green for emphasis
+    ForeColor = '#00FF88'
     Location  = New-Object System.Drawing.Point(20, 50)
     Size      = New-Object System.Drawing.Size(510, 25)
 }
@@ -38,7 +38,7 @@ $vm_MAOX_text = New-Object System.Windows.Forms.Label -Property @{
     Text      = 'MAOX'
     TextAlign = 'MiddleLeft'
     Font      = New-Object System.Drawing.Font('Segoe UI', 11, [System.Drawing.FontStyle]::Bold)
-    ForeColor = '#FFD700'   # gold accent
+    ForeColor = '#FFD700'
     Location  = New-Object System.Drawing.Point(20, 90)
     Size      = New-Object System.Drawing.Size(80, 25)
 }
@@ -65,9 +65,9 @@ $vm_text = New-Object System.Windows.Forms.TextBox -Property @{
 
 $create_button = New-Object System.Windows.Forms.Button -Property @{
     Text      = 'Create VM'
-    Location  = New-Object System.Drawing.Point(190, 150)   # centered better
+    Location  = New-Object System.Drawing.Point(190, 150)
     Size      = New-Object System.Drawing.Size(140, 40)
-    BackColor = '#28A745'   # modern green button
+    BackColor = '#28A745'
     ForeColor = '#FFFFFF'
     FlatStyle = 'Popup'
     Font      = New-Object System.Drawing.Font('Segoe UI', 11, [System.Drawing.FontStyle]::Bold)
