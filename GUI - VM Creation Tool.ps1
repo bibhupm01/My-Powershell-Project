@@ -16,9 +16,9 @@ $vm_window = New-Object System.Windows.Forms.Form -Property @{
 
 # Title banner
 $title_banner = New-Object System.Windows.Forms.Label -Property @{
-    Text      = 'VM Creation Tool'
+    Text      = 'Connect to LAN or VPN.'
     TextAlign = 'MiddleCenter'
-    Font      = New-Object System.Drawing.Font('Segoe UI', 14, [System.Drawing.FontStyle]::Bold)
+    Font      = New-Object System.Drawing.Font('Segoe UI', 11, [System.Drawing.FontStyle]::Bold)
     ForeColor = '#FFFFFF'
     BackColor = '#0078D4'
     Location  = New-Object System.Drawing.Point(0, 0)
