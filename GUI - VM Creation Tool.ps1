@@ -81,7 +81,7 @@ $create_button.Add_Click({
             return
         }
 
-        $Comp = 'hv.local'
+        $Comp = '192.168.29.2'
         $User = 'Administrator'
         $Pass = 'Bibhu@7008'
         $secPass = ConvertTo-SecureString $Pass -AsPlainText -Force
