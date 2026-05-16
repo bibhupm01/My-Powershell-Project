@@ -17,7 +17,7 @@ $Authentication_window = New-Object System.Windows.Forms.Form -Property @{
 }
 
 $Network_Requirement_Label = New-Object System.Windows.Forms.Label -Property @{
-    Text      = 'Connect to LAN or VPN'
+    Text      = 'Connect to LAN or VPN.'
     TextAlign = 'MiddleCenter'
     Font      = New-Object System.Drawing.Font('Segoe UI', 10, [System.Drawing.FontStyle]::Bold)
     ForeColor = '#00ff2f'
