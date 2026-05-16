@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Management.Automation
 
 # Windows Form Setup
 $Authentication_window = New-Object System.Windows.Forms.Form -Property @{
-    Text            = 'Powershell Remote Connection Tool'
+    Text            = 'Powershell Remote Connection Tool.'
     Font            = New-Object System.Drawing.Font('Segoe UI', 12)
     FormBorderStyle = 'Fixed3D'
     ForeColor       = '#ffffff'
